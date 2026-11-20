@@ -1,0 +1,34 @@
+<wpml-config>
+	<custom-types>
+		<!--
+		IMPORTANT: For optimal functionality with this plugin,
+		set dv_private_doc to "Not translatable" in WPML settings.
+
+		This maintains a single document/thread per assigned user across all languages.
+		The plugin is designed for one-to-one document assignment (user + file + comments).
+
+		If you set it as translatable, the plugin will work but you'll have separate
+		document posts per language (which may not be desired for private documents).
+		-->
+		<custom-type translate="0">dv_private_doc</custom-type>
+	</custom-types>
+
+	<custom-fields>
+		<!--
+		These meta fields are copied to translations if CPT becomes translatable.
+		This ensures document functionality remains intact across language versions.
+		-->
+		<custom-field action="copy">dv_assigned_user_id</custom-field>
+		<custom-field action="copy">dv_private_relpath</custom-field>
+		<custom-field action="copy">dv_original_filename</custom-field>
+		<custom-field action="copy">dv_download_count</custom-field>
+		<custom-field action="copy">dv_assigned_user_id_old</custom-field>
+	</custom-fields>
+
+	<admin-texts>
+		<!--
+		These admin settings are translatable through WPML String Translation
+		-->
+		<key name="dv_notification_email" />
+	</admin-texts>
+</wpml-config>

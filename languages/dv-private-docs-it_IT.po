@@ -1,0 +1,1418 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DV Private Documents 1.3.0\n"
+"Report-Msgid-Bugs-To: https://github.com/bluantinoo/dv-private-docs/issues\n"
+"Last-Translator: \n"
+"Language-Team: Italiano\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-02-06 12:00+0000\n"
+"PO-Revision-Date: 2026-05-11 10:57+0000\n"
+"Language: it_IT\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Loco https://localise.biz/\n"
+
+#. translators: 1: Comment date, 2: Comment time
+#: includes/frontend-shortcodes.php:285
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s alle %2$s"
+
+#: templates/document-list-item.php:68
+#, php-format
+msgid "%s comment"
+msgid_plural "%s comments"
+msgstr[0] "%s commento"
+msgstr[1] "%s commenti"
+
+#. translators: %s: Number of documents
+#: includes/cpt.php:123
+#, php-format
+msgid "%s document moved to the Trash."
+msgid_plural "%s documents moved to the Trash."
+msgstr[0] "%s documento spostato nel Cestino."
+msgstr[1] "%s documenti spostati nel Cestino."
+
+#. translators: %s: Number of documents
+#: includes/cpt.php:119
+#, php-format
+msgid "%s document not updated, somebody is editing it."
+msgid_plural "%s documents not updated, somebody is editing them."
+msgstr[0] "%s documento non aggiornato, qualcuno lo sta modificando."
+msgstr[1] "%s documenti non aggiornati, qualcuno li sta modificando."
+
+#. translators: %s: Number of documents
+#: includes/cpt.php:121
+#, php-format
+msgid "%s document permanently deleted."
+msgid_plural "%s documents permanently deleted."
+msgstr[0] "%s documento eliminato definitivamente."
+msgstr[1] "%s documenti eliminati definitivamente."
+
+#. translators: %s: Number of documents
+#: includes/cpt.php:125
+#, php-format
+msgid "%s document restored from the Trash."
+msgid_plural "%s documents restored from the Trash."
+msgstr[0] "%s documento ripristinato dal Cestino."
+msgstr[1] "%s documenti ripristinati dal Cestino."
+
+#. translators: %s: Number of documents
+#: includes/cpt.php:117
+#, php-format
+msgid "%s document updated."
+msgid_plural "%s documents updated."
+msgstr[0] "%s documento aggiornato."
+msgstr[1] "%s documenti aggiornati."
+
+#: includes/user-profile.php:98
+msgid "(Cannot be changed)"
+msgstr "(Non può essere modificato)"
+
+#: includes/user-profile.php:119
+msgid "(Optional)"
+msgstr "(Facoltativo)"
+
+#: includes/settings.php:848
+msgid "(Optional) Add the user menu"
+msgstr "(Facoltativo) Aggiungi il menu utente"
+
+#: includes/comments-guard.php:54
+#: includes/comments-guard.php:63
+#: includes/download-handler.php:113
+msgid "Access Denied"
+msgstr "Accesso Negato"
+
+#: includes/login-form.php:105
+msgid "Access Required"
+msgstr "Accesso Richiesto"
+
+#: includes/user-profile.php:93
+msgid "Account Information"
+msgstr "Informazioni Account"
+
+#: templates/document-view-comments.php:46
+msgid "Add a comment"
+msgstr "Aggiungi un Commento"
+
+#: includes/cpt.php:27
+msgid "Add New"
+msgstr "Aggiungi Nuovo"
+
+#: includes/cpt.php:26
+msgid "Add New Document"
+msgstr "Aggiungi Nuovo Documento"
+
+#: includes/user-profile.php:469
+msgid "Additional Information"
+msgstr "Informazioni Aggiuntive"
+
+#: includes/settings.php:587
+msgid "Admin Notification Email"
+msgstr "Email Notifiche Admin"
+
+#: includes/settings.php:572
+msgid "Admin Notification Settings"
+msgstr "Impostazioni Notifiche Admin"
+
+#: includes/settings.php:1128
+msgid "Administrators will be notified when assigned users comment on documents."
+msgstr "Gli amministratori verranno notificati quando gli utenti assegnati commentano i documenti."
+
+#: includes/settings.php:1208
+msgid "Advanced: Template Override System"
+msgstr "Avanzato: sistema di override dei template"
+
+#: includes/cpt.php:25
+msgid "All Documents"
+msgstr "Tutti i Documenti"
+
+#: includes/user-profile.php:305
+msgid "All password fields are required."
+msgstr "Tutti i campi password sono obbligatori."
+
+#: includes/settings.php:825
+#: includes/settings.php:833
+#: includes/settings.php:841
+msgid "and add the shortcode"
+msgstr "e aggiungi lo shortcode"
+
+#: includes/settings.php:404
+msgid "Appearance Settings"
+msgstr "Impostazioni di aspetto"
+
+#: includes/metaboxes.php:253
+msgid "Are you sure you want to remove this file?"
+msgstr "Sei sicuro di voler rimuovere questo file?"
+
+#: includes/metaboxes.php:19
+msgid "Assign to User"
+msgstr "Assegna ad utente"
+
+#: templates/document-list-item.php:81
+msgid "Assigned to:"
+msgstr "Assegnato a:"
+
+#: includes/admin-columns.php:33
+msgid "Assigned User"
+msgstr "Utente Assegnato"
+
+#: includes/settings.php:1112
+msgid "Assigned users will be notified when admins or others comment on their documents."
+msgstr "Gli utenti assegnati verranno notificati quando gli amministratori o altri commentano i loro documenti."
+
+#: includes/settings.php:1240
+msgid "Auto (follow system preference)"
+msgstr "Automatico (segue la preferenza del sistema)"
+
+#. translators: %s: path to templates folder
+#: includes/settings.php:1221
+msgid "Available templates in: <code>wp-content/plugins/dv-private-docs/templates/</code>"
+msgstr "Template disponibili in: <code>wp-content/plugins/dv-private-docs/templates/</code>"
+
+#: templates/document-view.php:26
+msgid "Back to documents"
+msgstr "Torna ai documenti"
+
+#: includes/metaboxes.php:292
+msgid "Cannot publish document:"
+msgstr "Impossibile pubblicare il documento:"
+
+#: includes/download-handler.php:86
+msgid "Cannot read file."
+msgstr "Non posso leggere il file."
+
+#: includes/metaboxes.php:130
+#: includes/metaboxes.php:215
+msgid "Change File"
+msgstr "Cambia File"
+
+#: includes/user-profile.php:169
+msgid "Change Password"
+msgstr "Cambia Password"
+
+#: includes/settings.php:1252
+msgid "Choose the color scheme for the plugin frontend. Auto follows the user's system preference (light/dark mode setting in their operating system)."
+msgstr "Scegli lo schema di colori del frontend del plugin. Automatico segue la preferenza del sistema dell'utente (modalità chiara o scura del sistema operativo)."
+
+#: includes/settings.php:411
+msgid "Color Scheme"
+msgstr "Schema di colori"
+
+#: includes/settings.php:563
+msgid "Comment Notification Email Template"
+msgstr "Template Email Notifica Commento"
+
+#: templates/document-view-comments.php:21
+msgid "Comments"
+msgstr "Commenti"
+
+#: includes/settings.php:1082
+msgid "Configure email notifications sent to administrators when users comment on documents."
+msgstr "Configura le notifiche email inviate agli amministratori quando gli utenti commentano i documenti."
+
+#: includes/settings.php:1062
+msgid "Configure email notifications sent to users when documents are assigned or comments are posted."
+msgstr "Configura le notifiche email inviate agli utenti quando i documenti vengono assegnati o quando vengono pubblicati commenti."
+
+#: includes/settings.php:888
+msgid "Configure the embedded login form that appears on document pages."
+msgstr "Configura il form di login integrato che appare nelle pagine dei documenti."
+
+#: includes/settings.php:599
+msgid "Configure the plugin settings below."
+msgstr "Configura le impostazioni del plugin qui sotto."
+
+#: includes/settings.php:856
+msgid "Configure the settings below"
+msgstr "Configura le impostazioni qui sotto"
+
+#: includes/settings.php:1028
+msgid "Configure where users are redirected after login."
+msgstr "Configura dove vengono reindirizzati gli utenti dopo l'accesso."
+
+#: includes/user-profile.php:183
+msgid "Confirm New Password"
+msgstr "Conferma Nuova Password"
+
+#: includes/metaboxes.php:236
+msgid "Connection error. Please try again."
+msgstr "Errore di connessione. Riprova."
+
+#: includes/user-profile.php:124
+msgid "Contact Information"
+msgstr "Informazioni di Contatto"
+
+#: includes/settings.php:507
+msgid "Content After Login Form"
+msgstr "Contenuto dopo il modulo di accesso"
+
+#: includes/settings.php:499
+msgid "Content Before Login Form"
+msgstr "Contenuto prima del modulo di accesso"
+
+#: includes/settings.php:824
+msgid "Create a page for the documents list"
+msgstr "Crea una pagina per l'elenco dei documenti"
+
+#: includes/settings.php:840
+msgid "Create a page for the user profile"
+msgstr "Crea una pagina per il profilo utente"
+
+#: includes/settings.php:832
+msgid "Create a page for viewing individual documents"
+msgstr "Crea una pagina per visualizzare i singoli documenti"
+
+#: includes/settings.php:608
+#: includes/settings.php:1070
+msgid "Current language:"
+msgstr "Lingua corrente:"
+
+#: includes/user-profile.php:173
+msgid "Current Password"
+msgstr "Password Corrente"
+
+#: includes/user-profile.php:311
+msgid "Current password is incorrect."
+msgstr "La password corrente non è corretta."
+
+#: includes/cpt.php:88
+msgid "Custom field deleted."
+msgstr "Campo personalizzato cancellato."
+
+#: includes/cpt.php:87
+msgid "Custom field updated."
+msgstr "Campo personalizzato aggiornato."
+
+#: includes/settings.php:1148
+msgid "Customize the email sent when a document is assigned. Available placeholders:"
+msgstr "Personalizza l'email inviata quando viene assegnato un documento. Placeholder disponibili:"
+
+#: includes/settings.php:1169
+msgid "Customize the email sent when users receive comment replies. Available placeholders:"
+msgstr "Personalizza l'email inviata quando gli utenti ricevono risposte ai commenti. Placeholder disponibili:"
+
+#: includes/settings.php:620
+msgid "Customize the visual appearance of the plugin frontend."
+msgstr "Personalizza l'aspetto del frontend del plugin."
+
+#: includes/settings.php:1248
+msgid "Dark mode"
+msgstr "Modalità scura"
+
+#. Author of the plugin
+#: dv-private-docs.php
+msgid "Diego Vagnoli"
+msgstr "Diego Vagnoli"
+
+#: includes/cpt.php:22
+msgid "Document Archives"
+msgstr "Archivi Documenti"
+
+#: includes/settings.php:555
+msgid "Document Assignment Email Template"
+msgstr "Template Email Assegnazione Documento"
+
+#: includes/cpt.php:23
+msgid "Document Attributes"
+msgstr "Attributi Documento"
+
+#: includes/metaboxes.php:515
+msgid "Document could not be published:"
+msgstr "Il documento non può essere pubblicato:"
+
+#: includes/cpt.php:100
+msgid "Document draft updated."
+msgstr "Bozza del documento aggiornata."
+
+#: includes/metaboxes.php:28
+msgid "Document File"
+msgstr "File Documento"
+
+#: includes/download-handler.php:40
+msgid "Document file not found."
+msgstr "File del documento non trovato."
+
+#: includes/metaboxes.php:113
+#: includes/metaboxes.php:205
+msgid "Document file:"
+msgstr "File documento:"
+
+#: includes/frontend-shortcodes.php:183
+msgid "Document not found."
+msgstr "Documento non trovato."
+
+#: includes/cpt.php:92
+msgid "Document published."
+msgstr "Documento pubblicato."
+
+#. translators: %s: date and time of the revision
+#: includes/cpt.php:91
+#, php-format
+msgid "Document restored to revision from %s"
+msgstr "Documento ripristinato alla revisione da %s"
+
+#: includes/metaboxes.php:528
+msgid "Document saved as draft:"
+msgstr "Documento salvato come bozza:"
+
+#: includes/cpt.php:93
+msgid "Document saved."
+msgstr "Documento salvato."
+
+#. translators: %s: scheduled date
+#: includes/cpt.php:97
+#, php-format
+msgid "Document scheduled for: <strong>%s</strong>."
+msgstr "Documento programmato per: <strong>%s</strong>."
+
+#: includes/cpt.php:94
+msgid "Document submitted."
+msgstr "Documento inviato."
+
+#: includes/cpt.php:36
+msgid "Document Thumbnail"
+msgstr "Immagine Documento"
+
+#: includes/cpt.php:86
+#: includes/cpt.php:89
+msgid "Document updated."
+msgstr "Documento aggiornato."
+
+#: includes/settings.php:379
+msgid "Document View Page"
+msgstr "Pagina Visualizzazione Documento"
+
+#: includes/cpt.php:42
+msgid "Documents list"
+msgstr "Elenco documenti"
+
+#: includes/cpt.php:43
+msgid "Documents list navigation"
+msgstr "Navigazione elenco documenti"
+
+#: includes/settings.php:371
+msgid "Documents List Page"
+msgstr "Pagina Elenco Documenti"
+
+#: includes/metaboxes.php:127
+msgid "Download / Preview"
+msgstr "Scarica / Anteprima"
+
+#: templates/document-view-header.php:70
+msgid "Download Document"
+msgstr "Scarica Documento"
+
+#: includes/admin-columns.php:39
+msgid "Downloads"
+msgstr "Download"
+
+#. Plugin Name of the plugin
+#: dv-private-docs.php
+msgid "DV Private Documents"
+msgstr "DV Private Documents"
+
+#: includes/cpt.php:29
+#: templates/document-view-header.php:30
+msgid "Edit Document"
+msgstr "Modifica Documento"
+
+#: includes/comments-guard.php:123
+msgid "Edit your profile"
+msgstr "Modifica il tuo profilo"
+
+#: includes/user-profile.php:127
+msgid "Email"
+msgstr "Email"
+
+#: includes/settings.php:671
+msgid "Email address to receive notifications when users comment on documents. Leave empty to use the default admin email."
+msgstr "Indirizzo email per ricevere notifiche quando gli utenti commentano i documenti. Lascia vuoto per usare l'email admin predefinita."
+
+#: includes/settings.php:1072
+msgid "Email templates below apply to this language only."
+msgstr "I modelli email qui sotto si applicano solo a questa lingua."
+
+#: includes/user-profile.php:434
+msgid "Email verified and updated successfully! You can close this window."
+msgstr "Email verificata e aggiornata con successo! Puoi chiudere questa finestra."
+
+#: includes/settings.php:451
+msgid "Enable Embedded Login Form"
+msgstr "Abilita Form di Login Integrato"
+
+#: includes/settings.php:419
+msgid "Enable Unstyled Mode"
+msgstr "Attiva Modalità Senza Stili"
+
+#: includes/user-profile.php:478
+msgid "Enter the organization or company name."
+msgstr "Inserisci il nome dell'organizzazione o azienda."
+
+#: includes/user-profile.php:489
+msgid "Enter the phone number."
+msgstr "Inserisci il numero di telefono:"
+
+#: includes/metaboxes.php:224
+#: includes/user-profile.php:281
+msgid "Error:"
+msgstr "Errore:"
+
+#: includes/metaboxes.php:681
+msgid "Failed to copy file to secure storage."
+msgstr "Impossibile copiare il file nell'archivio protetto."
+
+#: templates/document-view-header.php:75
+msgid "File is not available for download."
+msgstr "Il file non è disponibile per il download."
+
+#: includes/admin-columns.php:93
+msgid "File missing"
+msgstr "File mancante"
+
+#: includes/metaboxes.php:709
+msgid "File secured successfully!"
+msgstr "File protetto con successo!"
+
+#: includes/admin-columns.php:38
+msgid "File Status"
+msgstr "Stato File"
+
+#: includes/cpt.php:44
+msgid "Filter documents list"
+msgstr "Filtra elenco documenti"
+
+#: includes/user-profile.php:102
+msgid "First Name"
+msgstr "Nome"
+
+#: includes/settings.php:820
+msgid "Follow these steps to configure the plugin:"
+msgstr "Segui questi passaggi per configurare il plugin:"
+
+#: includes/settings.php:1211
+msgid "For complete HTML customization, you can override plugin templates by copying them to your theme:"
+msgstr "Per personalizzare completamente l'HTML puoi sovrascrivere i template del plugin copiandoli nel tuo tema:"
+
+#: includes/login-form.php:173
+msgid "Forgot your password?"
+msgstr "Password dimenticata?"
+
+#: includes/settings.php:363
+msgid "General Settings"
+msgstr "Impostazioni Generali"
+
+#: includes/settings.php:942
+msgid "Get your keys from <a href=\"https://www.google.com/recaptcha/admin\" target=\"_blank\">Google reCAPTCHA</a>"
+msgstr "Ottieni le tue chiavi da <a href=\"https://www.google.com/recaptcha/admin\" target=\"_blank\">Google reCAPTCHA</a>"
+
+#: includes/helpers.php:474
+msgid ""
+"Hello {user_name},\n"
+"\n"
+"A new document has been assigned to you:\n"
+"\n"
+"{document_title}\n"
+"\n"
+"You can view and download it here:\n"
+"{document_url}\n"
+"\n"
+"Best regards"
+msgstr ""
+"Ciao {user_name},\n"
+"\n"
+"Ti è stato assegnato un nuovo documento:\n"
+"\n"
+"{document_title}\n"
+"\n"
+"Puoi visualizzarlo e scaricarlo qui:\n"
+"{document_url}\n"
+"\n"
+"Cordiali saluti"
+
+#: includes/helpers.php:483
+msgid ""
+"Hello {user_name},\n"
+"\n"
+"New comment from {comment_author} on document \"{document_title}\":\n"
+"\n"
+"{comment_text}\n"
+"\n"
+"View and reply here:\n"
+"{document_url}\n"
+"\n"
+"Best regards"
+msgstr ""
+"Ciao {user_name},\n"
+"\n"
+"Nuovo commento da {comment_author} sul documento \"{document_title}\":\n"
+"\n"
+"{comment_text}\n"
+"\n"
+"Visualizza e rispondi qui:\n"
+"{document_url}\n"
+"\n"
+"Cordiali saluti"
+
+#: includes/user-profile.php:370
+#, php-format
+msgid ""
+"Hello,\n"
+"\n"
+"You requested to change your email address to: %1$s\n"
+"\n"
+"Please click the link below to confirm this change:\n"
+"%2$s\n"
+"\n"
+"This link will expire in 24 hours.\n"
+"\n"
+"If you did not request this change, please ignore this email.\n"
+"\n"
+"Best regards"
+msgstr ""
+"Ciao,\n"
+"\n"
+"Hai richiesto di cambiare il tuo indirizzo email in: %1$s\n"
+"\n"
+"Clicca sul link qui sotto per confermare questa modifica:\n"
+"%2$s\n"
+"\n"
+"Questo link scadrà tra 24 ore.\n"
+"\n"
+"Se non hai richiesto questa modifica, ignora questa email.\n"
+"\n"
+"Cordiali saluti"
+
+#. translators: %s: User display name
+#: includes/user-menu.php:103
+#, php-format
+msgid "Hello, %s"
+msgstr "Ciao, %s"
+
+#: includes/settings.php:435
+msgid "Hide Admin Bar for Subscribers"
+msgstr "Nascondi Barra Admin per Abbonati"
+
+#: includes/settings.php:631
+msgid "Hide the WordPress admin bar for users with the Subscriber role"
+msgstr "Nascondi la barra admin di WordPress per gli utenti con ruolo Abbonato"
+
+#: includes/settings.php:1019
+msgid "HTML or shortcodes to display inside the login wrapper, after the form. Rendered via the dv_after_login_form hook."
+msgstr "HTML o shortcode da mostrare nel contenitore del login, dopo il modulo. Stampato tramite l'hook dv_after_login_form."
+
+#: includes/settings.php:1000
+msgid "HTML or shortcodes to display inside the login wrapper, before the form. Rendered via the dv_after_login_form_wrapper hook."
+msgstr "HTML o shortcode da mostrare nel contenitore del login, prima del modulo. Stampato tramite l'hook dv_after_login_form_wrapper."
+
+#. Author URI of the plugin
+#: dv-private-docs.php
+msgid "https://diegovagnoli.it"
+msgstr "https://diegovagnoli.it"
+
+#: includes/settings.php:658
+msgid "If unchecked, non-logged-in users will see nothing. If checked, they will see a message with a login link."
+msgstr "Se deselezionato, gli utenti non connessi non vedranno nulla. Se selezionato, vedranno un messaggio con un link di accesso."
+
+#: includes/settings.php:817
+msgid "Initial Setup Instructions"
+msgstr "Istruzioni per la Configurazione Iniziale"
+
+#: includes/cpt.php:40
+msgid "Insert into document"
+msgstr "Inserisci nel documento"
+
+#: includes/download-handler.php:21
+msgid "Invalid document request."
+msgstr "Richiesta documento non valida"
+
+#: includes/metaboxes.php:642
+msgid "Invalid document."
+msgstr "Documento non valido."
+
+#: includes/user-profile.php:340
+msgid "Invalid email address."
+msgstr "Indirizzo email non valido."
+
+#: includes/metaboxes.php:647
+msgid "Invalid file."
+msgstr "File non valido."
+
+#: includes/user-profile.php:402
+#: includes/user-profile.php:426
+msgid "Invalid or expired verification link."
+msgstr "Link di verifica non valido o scaduto."
+
+#: includes/login-form.php:68
+msgid "Invalid username or password."
+msgstr "Nome utente o password non validi."
+
+#: includes/user-profile.php:396
+msgid "Invalid verification link."
+msgstr "Link di verifica non valido."
+
+#: includes/settings.php:955
+#: includes/settings.php:981
+msgid "Keep this key secret. Never share it publicly."
+msgstr "Mantieni questa chiave segreta. Non condividerla mai pubblicamente."
+
+#: includes/user-profile.php:149
+msgid "Language Preference"
+msgstr "Preferenza Lingua"
+
+#: includes/user-profile.php:107
+msgid "Last Name"
+msgstr "Cognome"
+
+#: includes/user-profile.php:170
+msgid "Leave blank if you don't want to change your password."
+msgstr "Lascia vuoto se non vuoi cambiare la tua password."
+
+#: includes/settings.php:1244
+msgid "Light mode"
+msgstr "Modalità chiara"
+
+#: includes/login-form.php:167
+#: includes/user-profile.php:44
+msgid "Log In"
+msgstr "Accedi"
+
+#: includes/comments-guard.php:112
+#: includes/login-form.php:161
+msgid "Log in"
+msgstr "Accedi"
+
+#: includes/comments-guard.php:125
+msgid "Log out"
+msgstr "Esci"
+
+#. translators: %s: user display name
+#: includes/comments-guard.php:119
+#, php-format
+msgid "Logged in as %s."
+msgstr "Connesso come %s."
+
+#: includes/user-menu.php:52
+msgid "Login"
+msgstr "Accedi"
+
+#: includes/settings.php:428
+msgid "Login Form Settings"
+msgstr "Impostazioni Form di Login"
+
+#: includes/user-menu.php:118
+msgid "Logout"
+msgstr "Esci"
+
+#: includes/cpt.php:98
+msgid "M j, Y @ G:i"
+msgstr "j M Y @ G:i"
+
+#: includes/login-form.php:117
+msgid "Manage cookie preferences"
+msgstr "Gestisci preferenze cookie"
+
+#: includes/metaboxes.php:182
+msgid "Moving file to private storage and removing from media library..."
+msgstr "Spostamento del file nell'archivio privato e rimozione dalla libreria media..."
+
+#: includes/user-menu.php:110
+msgid "My Documents"
+msgstr "I Miei Documenti"
+
+#: includes/user-menu.php:114
+msgid "My Profile"
+msgstr "Il Mio Profilo"
+
+#. translators: 1: Comment author name, 2: Document title, 3: Comment text, 4: Document URL
+#: includes/notifications.php:231
+#, php-format
+msgid ""
+"New comment from %1$s on document \"%2$s\":\n"
+"\n"
+"%3$s\n"
+"\n"
+"View document:\n"
+"%4$s"
+msgstr ""
+"Nuovo commento da %1$s sul documento \"%2$s\":\n"
+"\n"
+"%3$s\n"
+"\n"
+"Vedi documento:\n"
+"%4$s"
+
+#. translators: %s: Document title
+#: includes/notifications.php:222
+#, php-format
+msgid "New comment on document: %s"
+msgstr "Nuovo commento sul documento: %s"
+
+#: includes/cpt.php:28
+msgid "New Document"
+msgstr "Nuovo Documento"
+
+#. translators: %s: Document title
+#: includes/notifications.php:76
+#, php-format
+msgid "New document assigned: %s"
+msgstr "Nuovo documento assegnato: %s"
+
+#: includes/user-profile.php:178
+msgid "New Password"
+msgstr "Nuova Password"
+
+#: includes/user-profile.php:316
+msgid "New passwords do not match."
+msgstr "Le nuove password non coincidono."
+
+#: includes/user-profile.php:112
+msgid "Nickname"
+msgstr "Soprannome"
+
+#: includes/metaboxes.php:579
+msgid "No document file uploaded."
+msgstr "Nessun file documento caricato."
+
+#: includes/frontend-shortcodes.php:160
+msgid "No document specified."
+msgstr "Nessun documento specificato."
+
+#: templates/document-list-empty.php:17
+msgid "No documents available at the moment."
+msgstr "Al momento non c'è nessun documento disponibile."
+
+#: includes/admin-columns.php:83
+msgid "No file"
+msgstr "Nessun file"
+
+#: includes/metaboxes.php:575
+msgid "No user assigned to this document."
+msgstr "Nessun utente assegnato a questo documento."
+
+#: includes/admin-columns.php:75
+msgid "Not assigned"
+msgstr "Non assegnato"
+
+#: includes/cpt.php:34
+msgid "Not found"
+msgstr "Non trovato"
+
+#: includes/cpt.php:35
+msgid "Not found in Trash"
+msgstr "Non trovato nel cestino"
+
+#: includes/settings.php:579
+msgid "Notify Admins on User Comment"
+msgstr "Notifica Admin su Commento Utente"
+
+#: includes/settings.php:539
+msgid "Notify on Document Assignment"
+msgstr "Notifica su Assegnazione Documento"
+
+#: includes/settings.php:547
+msgid "Notify User on Comment Reply"
+msgstr "Notifica Utente su Risposta Commento"
+
+#: templates/document-list-item.php:95
+msgid "Open Document"
+msgstr "Apri Documento"
+
+#: includes/user-profile.php:117
+#: includes/user-profile.php:473
+msgid "Organization"
+msgstr "Organizzazione"
+
+#. translators: %s: shortcode example
+#: includes/settings.php:741
+msgid "Page containing the <code>[dv_private_doc_view]</code> shortcode. This displays a single document based on the <code>?doc=ID</code> URL parameter, with download button, comments, and a back link to the documents list page."
+msgstr "Pagina contenente lo shortcode <code>[dv_private_doc_view]</code>. Questo visualizza un singolo documento in base al parametro URL <code>?doc=ID</code>, con pulsante di download, commenti e un link indietro alla pagina con l'elenco dei documenti."
+
+#. translators: %s: shortcode example
+#: includes/settings.php:704
+msgid "Page containing the <code>[dv_private_docs]</code> shortcode. This displays a list of documents assigned to the current user. Each document links to the view page with a <code>?doc=ID</code> parameter."
+msgstr "Pagina contenente lo shortcode <code>[dv_private_docs]</code>. Questo visualizza un elenco di documenti assegnati all'utente corrente. Ogni documento si collega alla pagina di visualizzazione con un parametro <code>?doc=ID</code>."
+
+#. translators: %s: shortcode example
+#: includes/settings.php:778
+msgid "Page containing the <code>[dv_user_profile]</code> shortcode. This page will be linked in the user menu for logged-in users to view and edit their profile information."
+msgstr "Pagina contenente lo shortcode <code>[dv_user_profile]</code>. Questa pagina sarà collegata nel menu utente per gli utenti autenticati per visualizzare e modificare le informazioni del loro profilo."
+
+#: includes/settings.php:610
+msgid "Page settings below apply to this language only."
+msgstr "Le impostazioni della pagina qui sotto si applicano solo a questa lingua."
+
+#: includes/cpt.php:24
+msgid "Parent Document:"
+msgstr "Documento Genitore:"
+
+#: includes/login-form.php:135
+msgid "Password"
+msgstr "Password"
+
+#: includes/user-profile.php:321
+msgid "Password must be at least 8 characters long."
+msgstr "La password deve essere lunga almeno 8 caratteri."
+
+#. translators: %s: New email address awaiting verification
+#: includes/user-profile.php:131
+#, php-format
+msgid "Pending verification: %s"
+msgstr "In attesa di verifica: %s"
+
+#: includes/user-profile.php:137
+#: includes/user-profile.php:484
+msgid "Phone"
+msgstr "Telefono"
+
+#: includes/cpt.php:18
+msgctxt "Post Type General Name"
+msgid "Private Documents"
+msgstr "Documenti privati"
+
+#: includes/cpt.php:19
+msgctxt "Post Type Singular Name"
+msgid "Private Document"
+msgstr "Documento privato"
+
+#: includes/user-profile.php:152
+msgid "Preferred Language"
+msgstr "Lingua Preferita"
+
+#: includes/cpt.php:21
+#: includes/cpt.php:48
+msgid "Private Document"
+msgstr "Documento Privato"
+
+#: includes/cpt.php:20
+msgid "Private Documents"
+msgstr "Documenti Privati"
+
+#: includes/cpt.php:49
+msgid "Private documents assigned to individual users"
+msgstr "Documenti privati assegnati ai singoli utenti"
+
+#: includes/user-profile.php:83
+#: includes/user-profile.php:284
+msgid "Profile updated successfully!"
+msgstr "Profilo aggiornato con successo!"
+
+#. translators: %s: Document date
+#: templates/document-list-item.php:46
+#: templates/document-view-header.php:46
+#, php-format
+msgid "Published on %s"
+msgstr "Pubblicato il %s"
+
+#: includes/admin-columns.php:90
+msgid "Ready"
+msgstr "Pronto"
+
+#: includes/settings.php:475
+msgid "reCAPTCHA Secret Key"
+msgstr "Chiave Segreta reCAPTCHA"
+
+#: includes/settings.php:467
+msgid "reCAPTCHA Site Key"
+msgstr "Chiave Sito reCAPTCHA"
+
+#: includes/login-captcha.php:205
+msgid "reCAPTCHA verification failed. Please try again."
+msgstr "Verifica reCAPTCHA fallita. Riprova."
+
+#: includes/settings.php:516
+msgid "Redirect Settings"
+msgstr "Impostazioni Reindirizzamento"
+
+#: includes/settings.php:1053
+msgid "Redirect subscribers to this page after login. Typically the documents list page. Administrators always go to wp-admin."
+msgstr "Reindirizza gli abbonati a questa pagina dopo l'accesso. Tipicamente la pagina elenco documenti. Gli amministratori vanno sempre in wp-admin."
+
+#: includes/login-form.php:178
+msgid "Register"
+msgstr "Registrati"
+
+#: includes/login-form.php:149
+msgid "Remember Me"
+msgstr "Ricordami"
+
+#: includes/settings.php:1199
+msgid "Remove all plugin styling to allow full theme customization"
+msgstr "Rimuovi tutti gli stili del plugin per permettere la personalizzazione completa del tema"
+
+#: includes/cpt.php:38
+msgid "Remove document thumbnail"
+msgstr "Rimuovi l'immagine del documento"
+
+#: includes/metaboxes.php:133
+#: includes/metaboxes.php:216
+msgid "Remove File"
+msgstr "Rimuovi File"
+
+#: includes/metaboxes.php:310
+msgid "Save Draft"
+msgstr "Salva Bozza"
+
+#: includes/settings.php:877
+msgid "Save Settings"
+msgstr "Salva Impostazioni"
+
+#: includes/cpt.php:33
+msgid "Search Document"
+msgstr "Cerca documento"
+
+#: includes/metaboxes.php:181
+msgid "Securing file..."
+msgstr "Protezione file..."
+
+#: includes/download-handler.php:28
+#: includes/metaboxes.php:631
+msgid "Security check failed."
+msgstr "Controllo di sicurezza fallito."
+
+#: includes/metaboxes.php:164
+msgid "Select Document File"
+msgstr "Seleziona File Documento"
+
+#: includes/metaboxes.php:144
+#: includes/metaboxes.php:260
+msgid "Select the file that users will download. Supported formats: PDF, DOC, DOCX, XLS, XLSX, etc."
+msgstr "Seleziona il file che gli utenti scaricheranno. Formati supportati: PDF, DOC, DOCX, XLS, XLSX, ecc."
+
+#: includes/metaboxes.php:58
+msgid "Select user:"
+msgstr "Seleziona utente:"
+
+#: includes/settings.php:1093
+msgid "Send email notification when a document is assigned to a user"
+msgstr "Invia notifica email quando un documento viene assegnato a un utente"
+
+#: includes/settings.php:1125
+msgid "Send notification to admins when a user comments on a document"
+msgstr "Invia notifica agli amministratori quando un utente commenta un documento"
+
+#: includes/settings.php:1109
+msgid "Send notification to users when they receive a comment reply on their document"
+msgstr "Invia notifica agli utenti quando ricevono una risposta ai commenti sul loro documento"
+
+#: includes/cpt.php:37
+msgid "Set document thumbnail"
+msgstr "Imposta l'immagine del documento"
+
+#: includes/login-captcha.php:229
+#: includes/settings.php:19
+#: includes/settings.php:20
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: includes/settings.php:866
+msgid "Settings are language-specific. Use the WPML language switcher at the top of the page to change the current language, then select the appropriate translated pages for that language and save. Repeat this process for all active languages on your site."
+msgstr "Le impostazioni sono specifiche per lingua. Usa il selettore lingua WPML in alto nella pagina per cambiare la lingua corrente, poi seleziona le pagine tradotte appropriate per quella lingua e salva. Ripeti questo processo per tutte le lingue attive sul tuo sito."
+
+#: includes/settings.php:802
+msgid "Settings saved successfully."
+msgstr "Impostazioni salvate con successo."
+
+#: includes/settings.php:899
+msgid "Show login form instead of login link on document pages"
+msgstr "Mostra il form di login invece del link di accesso nelle pagine dei documenti"
+
+#: includes/settings.php:443
+msgid "Show Login Message"
+msgstr "Mostra Messaggio di Login"
+
+#: includes/settings.php:655
+msgid "Show login message on [dv_private_docs] shortcode for non-logged-in users"
+msgstr "Mostra il messaggio di login nello shortcode [dv_private_docs] per gli utenti non connessi"
+
+#: includes/user-profile.php:154
+msgid "Site Default"
+msgstr "Predefinito del Sito"
+
+#: includes/metaboxes.php:656
+msgid "Source file not found."
+msgstr "File sorgente non trovato."
+
+#: templates/document-view-comments.php:47
+msgid "Submit Comment"
+msgstr "Invia Commento"
+
+#: includes/settings.php:523
+msgid "Subscriber Redirect Page"
+msgstr "Pagina Reindirizzamento Abbonati"
+
+#: includes/user-profile.php:434
+msgid "Success"
+msgstr "Successo"
+
+#. translators: %s: Template path
+#: includes/template-functions.php:94
+#, php-format
+msgid "Template %s does not exist."
+msgstr "Il template %s non esiste."
+
+#: includes/metaboxes.php:300
+msgid "The document will be saved as draft. Complete all requirements to publish."
+msgstr "Il documento verrà salvato come bozza. Completa tutti i requisiti per pubblicare."
+
+#: includes/settings.php:852
+msgid "The menu displays: link to documents page, link to profile page (if configured), and login/logout link."
+msgstr "Il menu contiene: link alla pagina dei documenti, link alla pagina profilo (se impostata) e link login/logout."
+
+#: templates/document-view-comments.php:56
+msgid "This conversation is closed."
+msgstr "Questa conversazione è chiusa."
+
+#: includes/metaboxes.php:532
+msgid "This document cannot be published until all requirements are met."
+msgstr "Questo documento non può essere pubblicato finché non vengono soddisfatti tutti i requisiti."
+
+#: includes/metaboxes.php:70
+msgid "This document will be visible only to the selected user."
+msgstr "Questo documento sarà visibile solo all'utente selezionato."
+
+#: includes/user-profile.php:345
+#: includes/user-profile.php:416
+msgid "This email is already registered."
+msgstr "Questa email è già registrata."
+
+#: includes/metaboxes.php:121
+msgid "This file is stored securely and is not accessible from the Media Library."
+msgstr "Questo file è conservato in modo protetto e non è accessibile dalla Libreria Media."
+
+#: includes/settings.php:836
+msgid "This secure page displays the document title, description, protected download button, and comments that admins can reply to."
+msgstr "Questa è la pagina sicura che contiene titolo, descrizione, download protetto e eventuali commenti a cui un admin può rispondere."
+
+#: includes/settings.php:828
+msgid "This will be a restricted page where logged-in users can see only the documents assigned to them."
+msgstr "Questa sarà una pagina con accesso riservato agli utenti connessi, dove vedranno solo i documenti a loro assegnati."
+
+#: includes/admin-columns.php:28
+msgid "Thumbnail"
+msgstr "Immagine"
+
+#: includes/settings.php:849
+msgid "to any page with the shortcode"
+msgstr "in qualsiasi pagina con lo shortcode"
+
+#: includes/login-form.php:114
+msgid "To log in you must accept marketing cookies, required by the anti-bot protection (Google reCAPTCHA)."
+msgstr "Per accedere accetta i cookie di marketing (protezione anti-bot Google reCAPTCHA)."
+
+#: includes/settings.php:857
+msgid "to select the pages you created and customize the plugin behavior."
+msgstr "per selezionare le pagine create e personalizzare il comportamento del plugin."
+
+#: includes/metaboxes.php:227
+#: includes/metaboxes.php:239
+msgid "Try Again"
+msgstr "Riprova"
+
+#: includes/helpers.php:113
+#: includes/settings.php:604
+#: includes/settings.php:1066
+msgid "Unknown"
+msgstr "Sconosciuto"
+
+#: includes/cpt.php:30
+msgid "Update Document"
+msgstr "Aggiorna Documento"
+
+#: includes/user-profile.php:190
+msgid "Update Profile"
+msgstr "Aggiorna Profilo"
+
+#: includes/metaboxes.php:140
+#: includes/metaboxes.php:259
+msgid "Upload Document File"
+msgstr "Carica File Documento"
+
+#: includes/cpt.php:41
+msgid "Uploaded to this document"
+msgstr "Caricato in questo documento"
+
+#: includes/cpt.php:39
+msgid "Use as document thumbnail"
+msgstr "Usa come Immagine documento"
+
+#: includes/metaboxes.php:166
+msgid "Use this file"
+msgstr "Usa questo file"
+
+#: includes/settings.php:844
+msgid "Use this if you don't want users to access the WordPress dashboard to manage their profile."
+msgstr "Usa questa opzione se non vuoi far accedere gli utenti alla dashboard per gestire il proprio profilo."
+
+#: includes/admin-columns.php:72
+msgid "User not found"
+msgstr "Utente non trovato"
+
+#: includes/settings.php:532
+msgid "User Notification Settings"
+msgstr "Impostazioni Notifiche Utente"
+
+#: includes/settings.php:387
+msgid "User Profile Page"
+msgstr "Pagina Profilo Utente"
+
+#: includes/user-profile.php:96
+msgid "Username"
+msgstr "Nome Utente"
+
+#: includes/login-form.php:128
+msgid "Username or Email"
+msgstr "Nome Utente o Email"
+
+#: includes/settings.php:1096
+msgid "Users will receive notifications in their preferred language when a document is assigned to them."
+msgstr "Gli utenti riceveranno notifiche nella loro lingua preferita quando un documento viene loro assegnato."
+
+#: includes/user-profile.php:409
+msgid "Verification link has expired. Please request a new one."
+msgstr "Il link di verifica è scaduto. Richiedine uno nuovo."
+
+#: includes/user-profile.php:366
+msgid "Verify your new email address"
+msgstr "Verifica il tuo nuovo indirizzo email"
+
+#: templates/login-notice.php:25
+msgid "View All Documents"
+msgstr "Visualizza Tutti i Documenti"
+
+#: includes/cpt.php:31
+msgid "View Document"
+msgstr "Visualizza Documento"
+
+#: includes/cpt.php:32
+msgid "View Documents"
+msgstr "Visualizza Documenti"
+
+#: includes/user-profile.php:142
+msgid "Website"
+msgstr "Sito Web"
+
+#: includes/settings.php:902
+msgid "When enabled, non-logged-in users will see an inline login form instead of a link to wp-login.php"
+msgstr "Quando abilitato, gli utenti non connessi vedranno un form di login inline invece di un link a wp-login.php"
+
+#. translators: %s: shortcode example
+#: includes/settings.php:638
+msgid "When enabled, subscribers will not see the admin bar. Combine this with the <code>[dv_user_profile]</code> shortcode to create a page where users can edit their profile (name, email, password, organization) without accessing wp-admin. This creates a complete self-service portal experience for your users."
+msgstr "Quando abilitato, gli abbonati non vedranno la barra di amministrazione. Combina questa opzione con lo shortcode <code>[dv_user_profile]</code> per creare una pagina dove gli utenti possono modificare il proprio profilo (nome, email, password, organizzazione) senza accedere a wp-admin. Questo crea un'esperienza portale self-service completa per i tuoi utenti."
+
+#: includes/settings.php:1202
+msgid "When enabled, the plugin will not apply any default styles. Use this if you want to completely customize the appearance through your theme CSS. All semantic CSS classes will still be present for styling."
+msgstr "Quando attivato, il plugin non applicherà alcuno stile predefinito. Usa questa opzione se vuoi personalizzare completamente l'aspetto tramite il CSS del tuo tema. Tutte le classi CSS semantiche saranno comunque presenti per la stilizzazione."
+
+#: includes/settings.php:606
+#: includes/settings.php:1068
+msgid "WPML Compatibility"
+msgstr "Compatibilità WPML"
+
+#: includes/settings.php:863
+msgid "WPML: Configure settings for each language"
+msgstr "WPML: Configura le impostazioni per ogni lingua"
+
+#: includes/comments-guard.php:62
+msgid "You do not have permission to comment on this document."
+msgstr "Non hai i permessi per commentare questo documento."
+
+#: includes/download-handler.php:33
+msgid "You do not have permission to download this document."
+msgstr "Non hai i permessi per scaricare questo documento."
+
+#: includes/metaboxes.php:636
+msgid "You do not have permission to edit this document."
+msgstr "Non hai il permesso di modificare questo documento."
+
+#: includes/frontend-shortcodes.php:172
+msgid "You do not have permission to view this document."
+msgstr "Non hai i permessi per vedere questo documento."
+
+#: includes/login-captcha.php:200
+msgid "You must accept marketing cookies to log in (required by anti-bot protection)."
+msgstr "Devi accettare i cookie di marketing per effettuare il login (richiesti dalla protezione anti-bot)."
+
+#: includes/metaboxes.php:280
+#: includes/metaboxes.php:480
+msgid "You must assign this document to a user before publishing."
+msgstr "Devi assegnare questo documento a un utente prima di pubblicare."
+
+#: includes/comments-guard.php:53
+msgid "You must be logged in to comment on this document."
+msgstr "Per commentare questo documento devi effettuare l'accesso."
+
+#: includes/comments-guard.php:110
+msgid "You must be logged in to comment."
+msgstr "Devi essere connesso per commentare."
+
+#: includes/download-handler.php:112
+msgid "You must be logged in to download documents."
+msgstr "Devi essere connesso per scaricare documenti."
+
+#: includes/frontend-shortcodes.php:145
+msgid "You must be logged in to view this document."
+msgstr "Devi effettuare l'accesso per vedere questo documento."
+
+#: includes/user-profile.php:40
+msgid "You must be logged in to view this page."
+msgstr "Devi essere connesso per visualizzare questa pagina."
+
+#: includes/frontend-shortcodes.php:60
+msgid "You must be logged in to view your documents."
+msgstr "Devi essere connesso per visualizzare i tuoi documenti."
+
+#: includes/metaboxes.php:284
+#: includes/metaboxes.php:484
+msgid "You must upload a document file before publishing."
+msgstr "Devi caricare un file documento prima di pubblicare."
+
+#: templates/document-view-comments.php:45
+msgid "Your comment"
+msgstr "Il tuo commento"
+
+#: includes/frontend-shortcodes.php:295
+msgid "Your comment is awaiting moderation."
+msgstr "Il tuo commento è in attesa di moderazione."
+
+#: includes/metaboxes.php:62
+msgid "— Select a user —"
+msgstr "— Seleziona un utente —"
+
+#: includes/settings.php:694
+#: includes/settings.php:731
+#: includes/settings.php:768
+msgid "— Select —"
+msgstr "— Seleziona —"
+
+#: includes/settings.php:1047
+msgid "— WordPress Default —"
+msgstr "— Predefinito WordPress —"
+
+#: includes/metaboxes.php:212
+msgid "✓ File secured! Removed from Media Library and stored in private directory."
+msgstr "✓ File protetto! Rimosso dalla Libreria Media e archiviato in una directory privata."
+
+#: includes/metaboxes.php:117
+#: includes/metaboxes.php:209
+msgid "✓ Private storage:"
+msgstr "✓ Archiviazione privata:"
+
+#. Plugin URI of the plugin
+#: dv-private-docs.php
+msgid "https://github.com/bluantinoo/dv-private-docs"
+msgstr "https://github.com/bluantinoo/dv-private-docs"
+
+#. Description of the plugin
+#: dv-private-docs.php
+msgid "Private document area: administrators assign each document to one user, who downloads it through a protected link and can comment on it. Files never go through the Media Library."
+msgstr "Area documenti privata: gli amministratori assegnano ogni documento a un solo utente, che lo scarica da un link protetto e può commentarlo. I file non passano mai dalla Libreria Media."
+
+#: includes/attachment-cleanup.php:248
+msgid "DV Private Documents: a private document file is still in the media library."
+msgstr "DV Private Documents: un file di un documento privato è ancora nella Libreria Media."
+
+#. translators: %d: number of files.
+#: includes/attachment-cleanup.php:252
+#, php-format
+msgid "%d file could not be removed from the media library, which means it is publicly downloadable. Check the permissions on wp-content/private-docs/."
+msgid_plural "%d files could not be removed from the media library, which means they are publicly downloadable. Check the permissions on wp-content/private-docs/."
+msgstr[0] "%d file non è stato tolto dalla Libreria Media, quindi è scaricabile da chiunque. Controlla i permessi di wp-content/private-docs/."
+msgstr[1] "%d file non sono stati tolti dalla Libreria Media, quindi sono scaricabili da chiunque. Controlla i permessi di wp-content/private-docs/."
+
+#: includes/attachment-cleanup.php:267
+msgid "DV Private Documents: copies of private documents were removed from the media library."
+msgstr "DV Private Documents: copie di documenti privati sono state tolte dalla Libreria Media."
+
+#. translators: 1: number removed, 2: number moved into private storage.
+#: includes/attachment-cleanup.php:271
+#, php-format
+msgid "%1$d publicly accessible copies were deleted, %2$d of which were moved into private storage first because they existed nowhere else. This normally means a translation plugin duplicated the upload."
+msgstr "Sono state cancellate %1$d copie accessibili pubblicamente, di cui %2$d spostate prima nello spazio privato perché non esistevano altrove. Di solito significa che un plugin di traduzione ha duplicato il caricamento."
+
+#: includes/login-captcha.php:199
+#: includes/login-form.php:112
+msgid "To log in you must accept the cookies required by the anti-bot protection (Cloudflare Turnstile)."
+msgstr "Per accedere devi accettare i cookie richiesti dalla protezione anti-bot (Cloudflare Turnstile)."
+
+#: includes/login-captcha.php:204
+msgid "Anti-bot verification failed. Please try again."
+msgstr "Verifica anti-bot non riuscita. Riprova."
+
+#: includes/metaboxes.php:672
+msgid "The secure storage directory is not protected. The file was not stored, to avoid leaving it publicly downloadable."
+msgstr "La cartella dei documenti privati non è protetta. Il file non è stato salvato, per non lasciarlo scaricabile da chiunque."
+
+#: includes/settings.php:395
+msgid "Delete Data on Uninstall"
+msgstr "Cancella i dati alla disinstallazione"
+
+#: includes/settings.php:459
+msgid "Anti-bot Protection"
+msgstr "Protezione anti-bot"
+
+#: includes/settings.php:483
+msgid "Turnstile Site Key"
+msgstr "Chiave del sito Turnstile"
+
+#: includes/settings.php:491
+msgid "Turnstile Secret Key"
+msgstr "Chiave segreta Turnstile"
+
+#: includes/settings.php:924
+msgid "None"
+msgstr "Nessuna"
+
+#: includes/settings.php:925
+msgid "Google reCAPTCHA v3"
+msgstr "Google reCAPTCHA v3"
+
+#: includes/settings.php:926
+msgid "Cloudflare Turnstile"
+msgstr "Cloudflare Turnstile"
+
+#: includes/settings.php:929
+msgid "Protects the embedded login form against automated login attempts. Fill in the keys of the service you choose. The standard login page (wp-login.php) is not covered: protect it with a security plugin."
+msgstr "Protegge il modulo di accesso integrato dai tentativi automatici. Inserisci le chiavi del servizio scelto. La pagina di accesso standard (wp-login.php) non è coperta: proteggila con un plugin di sicurezza."
+
+#: includes/settings.php:968
+msgid "Get your keys from <a href=\"https://dash.cloudflare.com/?to=/:account/turnstile\" target=\"_blank\">Cloudflare Turnstile</a>. Add this site's domain to the widget."
+msgstr "Ottieni le chiavi da <a href=\"https://dash.cloudflare.com/?to=/:account/turnstile\" target=\"_blank\">Cloudflare Turnstile</a>. Aggiungi il dominio di questo sito al widget."
+
+#: includes/settings.php:1183
+msgid "Delete all documents, uploaded files and settings when the plugin is deleted"
+msgstr "Cancella tutti i documenti, i file caricati e le impostazioni quando il plugin viene eliminato"
+
+#: includes/settings.php:1186
+msgid "Applies only when the plugin is deleted from the Plugins screen, never when it is deactivated. Documents, their comments, the files in the private storage folder, the profile fields added by the plugin and all its settings are removed for good. Leave it off to keep everything for a later reinstall."
+msgstr "Vale solo quando il plugin viene eliminato dalla schermata Plugin, mai quando viene disattivato. Documenti, commenti, file della cartella protetta, campi del profilo aggiunti dal plugin e tutte le impostazioni vengono cancellati per sempre. Lasciala spenta per conservare tutto in vista di una reinstallazione."
+
+#: includes/storage-protection.php:237
+msgid "DV Private Documents: the private documents are publicly downloadable."
+msgstr "DV Private Documents: i documenti privati sono scaricabili da chiunque."
+
+#: includes/storage-protection.php:238
+msgid "A test file in the storage directory was served over HTTP without authentication. The web server is ignoring the .htaccess protection, so the directory must be blocked at server level before any document is uploaded."
+msgstr "Un file di prova nella cartella dei documenti è stato servito via HTTP senza autenticazione. Il server web ignora la protezione dell'.htaccess, quindi la cartella va bloccata nella configurazione del server prima di caricare qualunque documento."
+
+#: includes/storage-protection.php:246
+msgid "DV Private Documents: the storage directory could not be protected."
+msgstr "DV Private Documents: non è stato possibile proteggere la cartella dei documenti."
+
+#: includes/storage-protection.php:247
+msgid "The plugin was unable to create or write the .htaccess file that keeps the private documents from being downloaded directly. Check the filesystem permissions on wp-content/private-docs/."
+msgstr "Il plugin non è riuscito a creare o scrivere il file .htaccess che impedisce di scaricare direttamente i documenti privati. Controlla i permessi di wp-content/private-docs/."
+
+#: includes/login-captcha.php:227
+msgid "DV Private Documents: the anti-bot protection has no keys."
+msgstr "DV Private Documents: la protezione anti-bot non ha le chiavi."
+
+#: includes/login-captcha.php:228
+msgid "Every login from the embedded form is refused until both keys are filled in, or the protection is set to None."
+msgstr "Ogni accesso dal modulo integrato viene rifiutato finché non inserisci entrambe le chiavi o non imposti la protezione su Nessuna."
+
+#: includes/login-form.php:73
+msgid "The login could not be completed here. Please use the login page."
+msgstr "Non è stato possibile completare l'accesso qui. Usa la pagina di accesso."

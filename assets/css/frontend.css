@@ -1,0 +1,665 @@
+/**
+ * DV Private Documents - Frontend Styles
+ *
+ * These styles can be overridden by your theme.
+ * To customize, add your CSS to your theme's stylesheet.
+ */
+
+/* ==========================================================================
+   CSS Variables - Design Tokens System
+   ========================================================================== */
+
+:root {
+	/* ========================================
+	   FOUNDATION TOKENS (Minimalist Palette)
+	   Ridotto a valori essenziali - i colori di
+	   testo e link vengono ereditati dal tema.
+	   ======================================== */
+
+	/* Primary Accent (modificare questo per personalizzare) */
+	--dv-primary: #2271b1;
+
+	/* Grays (solo 3 tonalità essenziali) */
+	--dv-gray-light: #f5f5f5;
+	--dv-gray-medium: #ddd;
+	--dv-gray-dark: #666;
+
+	/* Feedback Colors (solo per messaggi) */
+	--dv-success: #00a32a;
+	--dv-error: #d63638;
+	--dv-warning: #856404;
+
+	/* Structure */
+	--dv-white: #fff;
+	--dv-shadow: rgba(0, 0, 0, 0.08);
+
+	/* Spacing & Borders (valori base) */
+	--dv-border-width: 1px;
+	--dv-border-radius: 4px;
+	--dv-spacing: 20px;
+
+	/* ========================================
+	   SEMANTIC OVERRIDES (opzionali)
+	   Personalizza solo ciò che necessita attenzione
+	   ======================================== */
+
+	/* Containers */
+	--dv-container-bg: var(--dv-white);
+	--dv-container-border: var(--dv-gray-medium);
+
+	/* Interactive Elements */
+	--dv-button-primary: var(--dv-primary);
+	--dv-button-danger: var(--dv-error);
+	--dv-button-text: var(--dv-white);
+
+	/* Feedback Messages */
+	--dv-message-success-bg: #d4edda;
+	--dv-message-success-border: #c3e6cb;
+	--dv-message-error-bg: #f8d7da;
+	--dv-message-error-border: #f5c6cb;
+	--dv-message-warning-bg: #fff3cd;
+	--dv-message-warning-border: #ffeeba;
+}
+
+/* ==========================================================================
+   Login Form
+   ========================================================================== */
+
+.dv-login-form-wrapper {
+	max-width: 400px;
+	margin: 40px auto;
+	padding: var(--dv-spacing);
+	background: var(--dv-container-bg);
+	border: var(--dv-border-width) solid var(--dv-container-border);
+	border-radius: var(--dv-border-radius);
+	box-shadow: 0 1px 3px var(--dv-shadow);
+}
+
+.dv-login-form-wrapper h3 {
+	margin-top: 0;
+	text-align: center;
+}
+
+.dv-login-form-wrapper input[type="text"],
+.dv-login-form-wrapper input[type="password"],
+.dv-login-form-wrapper input[type="email"] {
+	width: 100%;
+	padding: 8px 12px;
+	border: var(--dv-border-width) solid var(--dv-container-border);
+	border-radius: var(--dv-border-radius);
+	font-size: inherit;
+	box-sizing: border-box;
+}
+
+.dv-login-form-wrapper input[type="text"]:focus,
+.dv-login-form-wrapper input[type="password"]:focus,
+.dv-login-form-wrapper input[type="email"]:focus {
+	border-color: var(--dv-primary);
+	outline: none;
+	box-shadow: 0 0 0 var(--dv-border-width) var(--dv-primary);
+}
+
+.dv-login-form-wrapper label {
+	display: block;
+	margin-bottom: 5px;
+	font-weight: 600;
+}
+
+.dv-login-form-wrapper p {
+	margin: 15px 0;
+}
+
+.dv-login-form-wrapper .button-primary {
+	width: 100%;
+	height: 40px;
+	font-size: 16px;
+}
+
+.dv-login-form-wrapper .dv-login-links {
+	margin: 10px 0 0 0;
+	text-align: center;
+}
+
+.dv-login-form-wrapper .dv-login-links a {
+	font-size: 14px;
+}
+
+#dv-login-message {
+	display: block;
+	padding: 10px;
+	margin: 15px 0;
+	border-radius: var(--dv-border-radius);
+}
+
+#dv-login-message[hidden] {
+    display: none;
+}
+
+#dv-login-message.success {
+	background: var(--dv-message-success-bg);
+	border: var(--dv-border-width) solid var(--dv-message-success-border);
+	color: var(--dv-success);
+}
+
+#dv-login-message.error {
+	background: var(--dv-message-error-bg);
+	border: var(--dv-border-width) solid var(--dv-message-error-border);
+	color: var(--dv-error);
+}
+
+.dv-login-consent-notice {
+	padding: 12px 15px;
+	margin: 0 0 15px 0;
+	background: var(--dv-message-warning-bg);
+	border: var(--dv-border-width) solid var(--dv-message-warning-border);
+	border-left: 4px solid var(--dv-warning);
+	border-radius: var(--dv-border-radius);
+	color: var(--dv-warning);
+	font-size: 0.95em;
+	line-height: 1.5;
+}
+
+.dv-login-consent-notice p {
+	margin: 0;
+}
+
+.dv-login-consent-notice a {
+	color: var(--dv-warning);
+	text-decoration: underline;
+	font-weight: 600;
+}
+
+.dv-login-consent-notice a:hover {
+	text-decoration: none;
+}
+
+/* ==========================================================================
+   User Profile Form
+   ========================================================================== */
+
+.dv-user-profile {
+	max-width: 600px;
+	margin: 20px 0;
+}
+
+.dv-user-profile h3 {
+	margin-top: 30px;
+	margin-bottom: 15px;
+	border-bottom: var(--dv-border-width) solid var(--dv-container-border);
+	padding-bottom: 10px;
+}
+
+.dv-user-profile p {
+	margin: 15px 0;
+}
+
+.dv-user-profile .regular-text,
+.dv-user-profile input[type="text"],
+.dv-user-profile input[type="email"],
+.dv-user-profile input[type="url"],
+.dv-user-profile input[type="password"],
+.dv-user-profile select {
+	width: 100%;
+	max-width: 400px;
+	box-sizing: border-box;
+}
+
+.dv-user-profile label {
+	font-weight: 600;
+	display: inline-block;
+	margin-bottom: 5px;
+}
+
+.dv-user-profile .description {
+	font-size: 0.9em;
+	color: var(--dv-gray-dark);
+	font-weight: normal;
+}
+
+.dv-profile-message {
+	padding: 12px;
+	margin: 20px 0;
+	border-left: 4px solid var(--dv-primary);
+	background: var(--dv-gray-light);
+	border-radius: var(--dv-border-radius);
+}
+
+.dv-profile-message.error {
+	border-left-color: var(--dv-error);
+	background: var(--dv-message-error-bg);
+}
+
+.dv-profile-message.success {
+	border-left-color: var(--dv-success);
+	background: var(--dv-message-success-bg);
+}
+
+/* ==========================================================================
+   Notice Messages
+   ========================================================================== */
+
+.dv-private-docs-notice {
+	background: var(--dv-gray-light);
+	border-left: 4px solid var(--dv-primary);
+	padding: 15px;
+	margin: 20px 0;
+}
+
+.dv-private-docs-notice p {
+	margin: 0;
+}
+
+.dv-private-docs-notice p+p {
+	margin-top: 10px;
+}
+
+.dv-private-docs-notice .button {
+	margin-top: 10px;
+}
+
+/* ==========================================================================
+   Responsive Design
+   ========================================================================== */
+
+@media screen and (max-width: 600px) {
+	.dv-login-form-wrapper {
+		margin: 20px auto;
+		padding: 20px;
+	}
+
+	.dv-user-profile .regular-text,
+	.dv-user-profile input[type="text"],
+	.dv-user-profile input[type="email"],
+	.dv-user-profile input[type="url"],
+	.dv-user-profile input[type="password"],
+	.dv-user-profile select {
+		max-width: 100%;
+	}
+}
+
+/* ==========================================================================
+   User Menu Shortcode
+   ========================================================================== */
+
+.dv-user-menu {
+	padding: 15px var(--dv-spacing);
+	background: var(--dv-white);
+	border: var(--dv-border-width) solid var(--dv-container-border);
+	border-radius: var(--dv-border-radius);
+	margin: 20px 0;
+}
+
+.dv-user-menu-logged-out {
+	text-align: center;
+}
+
+.dv-user-menu-logged-in {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	gap: 15px;
+}
+
+.dv-menu-user-name {
+	font-weight: 600;
+	color: inherit;
+}
+
+.dv-menu-nav {
+	display: flex;
+	gap: 15px;
+	flex-wrap: wrap;
+}
+
+.dv-menu-nav .dv-menu-link {
+	display: inline-block;
+	padding: 8px 16px;
+	background: var(--dv-button-primary);
+	color: var(--dv-button-text);
+	text-decoration: none;
+	border-radius: var(--dv-border-radius);
+	transition: opacity 0.2s ease;
+}
+
+.dv-menu-nav .dv-menu-link:hover,
+.dv-menu-nav .dv-menu-link:focus {
+	opacity: 0.85;
+	color: var(--dv-button-text);
+	text-decoration: none;
+}
+
+.dv-menu-link:active {
+	opacity: 0.7;
+}
+
+.dv-menu-nav .dv-menu-link.current-page {
+	font-weight: 600;
+	box-shadow: 0 0 0 2px var(--dv-button-primary);
+}
+
+.dv-menu-nav .dv-menu-logout {
+	background: var(--dv-button-danger);
+}
+
+.dv-menu-logout:hover,
+.dv-menu-logout:focus {
+	opacity: 0.85;
+}
+
+.dv-menu-logout:active {
+	opacity: 0.7;
+}
+
+/* ==========================================================================
+   Document List - List View Items
+   ========================================================================== */
+
+.dv-private-doc-item {
+	background: var(--dv-container-bg);
+	border: var(--dv-border-width) solid var(--dv-container-border);
+	border-radius: var(--dv-border-radius);
+	padding: var(--dv-spacing);
+	margin-bottom: 20px;
+	display: flex;
+	gap: var(--dv-spacing);
+	align-items: flex-start;
+}
+
+.dv-private-doc-item .dv-doc-thumbnail {
+	flex-shrink: 0;
+}
+
+.dv-private-doc-item .dv-doc-thumbnail img {
+	border-radius: var(--dv-border-radius);
+	max-width: 120px;
+	height: auto;
+}
+
+.dv-private-doc-item .dv-doc-content {
+	flex-grow: 1;
+}
+
+.dv-private-doc-item h3 {
+	margin: 0 0 10px 0;
+	font-size: 1.3em;
+}
+
+.dv-private-doc-item .dv-doc-meta {
+	margin: 0 0 10px 0;
+	color: var(--dv-gray-dark);
+	font-size: 0.9em;
+}
+
+.dv-private-doc-item .dv-doc-file:before,
+.dv-private-doc-item .dv-doc-comments-count:before {
+	color: var(--dv-container-border);
+	content: " | ";
+}
+
+.dv-private-doc-item .dv-doc-assigned-notice {
+	margin: 0 0 10px 0;
+	padding: 8px 12px;
+	background: var(--dv-gray-light);
+	border-left: 3px solid var(--dv-primary);
+	font-size: 0.85em;
+}
+
+.dv-private-doc-item .dv-doc-excerpt {
+	margin: 0 0 15px 0;
+	color: inherit;
+	opacity: 0.8;
+}
+
+.dv-private-docs-empty {
+	background: var(--dv-gray-light);
+	border: var(--dv-border-width) dashed var(--dv-container-border);
+	padding: 40px;
+	text-align: center;
+	border-radius: var(--dv-border-radius);
+}
+
+.dv-private-docs-empty p {
+	margin: 0;
+	color: var(--dv-gray-dark);
+	font-size: 1.1em;
+}
+
+/* ==========================================================================
+   Document View - Single Document Page
+   ========================================================================== */
+
+.dv-private-doc-view .dv-back-link {
+	margin: 0 0 20px 0;
+}
+
+.dv-private-doc-view .dv-back-link a {
+	text-decoration: none;
+}
+
+.dv-doc-header {
+	background: var(--dv-container-bg);
+	border: var(--dv-border-width) solid var(--dv-container-border);
+	border-radius: var(--dv-border-radius);
+	padding: var(--dv-spacing);
+	margin-bottom: 30px;
+}
+
+.dv-doc-header .dv-doc-thumbnail-wrapper {
+	margin-bottom: 20px;
+}
+
+.dv-doc-header .dv-doc-thumbnail-wrapper img {
+	border-radius: var(--dv-border-radius);
+	max-width: 100%;
+	height: auto;
+}
+
+.dv-doc-header h1 {
+	margin: 0 0 15px 0;
+	font-size: 2em;
+}
+
+.dv-doc-header .dv-doc-date {
+	margin: 0 0 20px 0;
+	color: var(--dv-gray-dark);
+}
+
+.dv-doc-header .dv-doc-description {
+	margin: 0 0 20px 0;
+	line-height: 1.6;
+}
+
+.dv-doc-header .dv-download-button {
+	margin: 20px 0 0 0;
+}
+
+.dv-doc-header .dv-file-unavailable {
+	margin: 20px 0 0 0;
+	color: var(--dv-error);
+}
+
+.dv-doc-comments {
+	background: var(--dv-container-bg);
+	border: var(--dv-border-width) solid var(--dv-container-border);
+	border-radius: var(--dv-border-radius);
+	padding: var(--dv-spacing);
+	margin-bottom: 30px;
+}
+
+.dv-doc-comments h2 {
+	margin: 0 0 20px 0;
+	font-size: 1.5em;
+}
+
+.dv-comment-form {
+	margin-top: 30px;
+	padding-top: 30px;
+	border-top: var(--dv-border-width) solid var(--dv-container-border);
+}
+
+.dv-conversation-closed {
+	margin-top: 20px;
+	padding: 15px;
+	background: var(--dv-gray-light);
+	border-radius: var(--dv-border-radius);
+}
+
+.dv-conversation-closed p {
+	margin: 0;
+	color: var(--dv-gray-dark);
+}
+
+/* ==========================================================================
+   Comments Display
+   ========================================================================== */
+
+.dv-doc-comments .comment-body {
+	padding: 15px;
+	margin: 10px 0;
+	background: var(--dv-gray-light);
+	border-radius: var(--dv-border-radius);
+}
+
+.dv-doc-comments .comment-meta {
+	margin-bottom: 10px;
+}
+
+.dv-doc-comments .comment-author.vcard {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.dv-doc-comments .comment-time {
+	font-size: 0.85em;
+	color: var(--dv-gray-dark);
+}
+
+.dv-doc-comments .comment-moderation {
+	padding: 8px 12px;
+	background: #fff3cd;
+	border-left: 3px solid #ffc107;
+	margin: 10px 0;
+	font-size: 0.9em;
+	color: #856404;
+}
+
+.dv-doc-comments .comment-content {
+	margin: 10px 0;
+}
+
+/* ==========================================================================
+   Notice Messages
+   ========================================================================== */
+
+.dv-private-docs-notice.dv-notice-error {
+	background: var(--dv-message-error-bg);
+	border-left: 4px solid var(--dv-error);
+}
+
+.dv-private-docs-notice p+p {
+	margin: 10px 0 0 0;
+}
+
+/* ==========================================================================
+   User Profile
+   ========================================================================== */
+
+.dv-user-profile .dv-pending-email-notice {
+	color: var(--dv-error);
+}
+
+/* ==========================================================================
+   Dark Mode
+   ========================================================================== */
+
+/* Automatico - rispetta preferenze sistema operativo */
+@media (prefers-color-scheme: dark) {
+	:root {
+		--dv-primary: #b9cee1;
+		--dv-gray-light: #1a1a1a;
+		--dv-gray-medium: #333;
+		--dv-gray-dark: #ccc;
+		--dv-white: #000;
+		--dv-container-bg: #111;
+		--dv-container-border: #333;
+		--dv-shadow: rgba(255, 255, 255, 0.1);
+		--dv-message-success-bg: #1a3a1a;
+		--dv-message-success-border: #2a5a2a;
+		--dv-message-error-bg: #3a1a1a;
+		--dv-message-error-border: #5a2a2a;
+		--dv-warning: #ffd966;
+		--dv-message-warning-bg: #3a3000;
+		--dv-message-warning-border: #5a4a00;
+	}
+}
+
+/* Forzato tramite setting admin */
+body.dv-dark-mode {
+	--dv-primary: #b9cee1;
+	--dv-gray-light: #1a1a1a;
+	--dv-gray-medium: #333;
+	--dv-gray-dark: #ccc;
+	--dv-white: #000;
+	--dv-container-bg: #111;
+	--dv-container-border: #333;
+	--dv-shadow: rgba(255, 255, 255, 0.1);
+	--dv-message-success-bg: #1a3a1a;
+	--dv-message-success-border: #2a5a2a;
+	--dv-message-error-bg: #3a1a1a;
+	--dv-message-error-border: #5a2a2a;
+	--dv-warning: #ffd966;
+	--dv-message-warning-bg: #3a3000;
+	--dv-message-warning-border: #5a4a00;
+}
+
+/* Light mode forzato (override preferenze sistema) */
+body.dv-light-mode {
+	--dv-primary: #2271b1;
+	--dv-gray-light: #f5f5f5;
+	--dv-gray-medium: #ddd;
+	--dv-gray-dark: #666;
+	--dv-white: #fff;
+	--dv-container-bg: #fff;
+	--dv-container-border: #ddd;
+	--dv-shadow: rgba(0, 0, 0, 0.08);
+	--dv-message-success-bg: #d4edda;
+	--dv-message-success-border: #c3e6cb;
+	--dv-message-error-bg: #f8d7da;
+	--dv-message-error-border: #f5c6cb;
+	--dv-warning: #856404;
+	--dv-message-warning-bg: #fff3cd;
+	--dv-message-warning-border: #ffeeba;
+}
+
+/* ==========================================================================
+   Responsive
+   ========================================================================== */
+
+@media screen and (max-width: 600px) {
+	.dv-user-menu-logged-in {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	.dv-menu-nav {
+		width: 100%;
+		flex-direction: column;
+		gap: 10px;
+	}
+
+	.dv-menu-link {
+		width: 100%;
+		text-align: center;
+	}
+
+	.dv-private-doc-item {
+		flex-direction: column;
+		gap: 15px;
+	}
+
+	.dv-private-doc-item .dv-doc-thumbnail img {
+		max-width: 100%;
+	}
+}
