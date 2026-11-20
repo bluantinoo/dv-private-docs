@@ -126,6 +126,7 @@ function dv_private_docs_uninstall_site() {
 		'dv_show_login_message',
 		'dv_turnstile_secret_key',
 		'dv_turnstile_site_key',
+		'dv_turnstile_theme',
 		'dv_private_docs_last_sweep',
 		'dv_private_docs_protection_fs',
 		'dv_private_docs_protection_http',

@@ -206,6 +206,16 @@ function dv_register_settings() {
 		)
 	);
 
+	register_setting(
+		'dv_private_docs_settings',
+		'dv_turnstile_theme',
+		array(
+			'type'              => 'string',
+			'sanitize_callback' => 'dv_sanitize_turnstile_theme',
+			'default'           => 'auto',
+		)
+	);
+
 	// Login form content (language-aware)
 	if ( $current_lang ) {
 		register_setting(
@@ -490,6 +500,14 @@ function dv_register_settings() {
 		'dv_turnstile_secret_key',
 		__( 'Turnstile Secret Key', 'dv-private-docs' ),
 		'dv_turnstile_secret_key_callback',
+		'dv-private-docs-settings',
+		'dv_login_settings'
+	);
+
+	add_settings_field(
+		'dv_turnstile_theme',
+		__( 'Turnstile Theme', 'dv-private-docs' ),
+		'dv_turnstile_theme_callback',
 		'dv-private-docs-settings',
 		'dv_login_settings'
 	);
@@ -979,6 +997,33 @@ function dv_turnstile_secret_key_callback() {
 	<input type="password" name="dv_turnstile_secret_key" value="<?php echo esc_attr( $value ); ?>" class="regular-text" />
 	<p class="description">
 		<?php esc_html_e( 'Keep this key secret. Never share it publicly.', 'dv-private-docs' ); ?>
+	</p>
+	<?php
+}
+
+/**
+ * Sanitize the Turnstile widget theme.
+ *
+ * @param mixed $value Submitted value.
+ * @return string
+ */
+function dv_sanitize_turnstile_theme( $value ) {
+	return in_array( $value, array( 'auto', 'light', 'dark' ), true ) ? $value : 'auto';
+}
+
+/**
+ * Turnstile theme callback
+ */
+function dv_turnstile_theme_callback() {
+	$value = get_option( 'dv_turnstile_theme', 'auto' );
+	?>
+	<select name="dv_turnstile_theme">
+		<option value="auto" <?php selected( $value, 'auto' ); ?>><?php esc_html_e( 'Auto (follow system preference)', 'dv-private-docs' ); ?></option>
+		<option value="light" <?php selected( $value, 'light' ); ?>><?php esc_html_e( 'Light mode', 'dv-private-docs' ); ?></option>
+		<option value="dark" <?php selected( $value, 'dark' ); ?>><?php esc_html_e( 'Dark mode', 'dv-private-docs' ); ?></option>
+	</select>
+	<p class="description">
+		<?php esc_html_e( 'Colors of the Turnstile widget. Auto follows the light or dark setting of the visitor\'s device, whatever the colors of the site.', 'dv-private-docs' ); ?>
 	</p>
 	<?php
 }

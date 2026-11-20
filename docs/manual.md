@@ -159,6 +159,9 @@ The dark mode implementation uses CSS variables that intelligently adapt colors 
 #### Turnstile Site Key and Secret Key
 - From the Turnstile section of the Cloudflare dashboard; add the site's domain to the widget
 
+#### Turnstile Theme
+- Auto (default) follows the light or dark setting of the visitor's device; Light or Dark fix it to match the site
+
 ### Redirect Settings
 
 #### Subscriber Redirect Page

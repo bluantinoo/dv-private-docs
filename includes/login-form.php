@@ -153,7 +153,7 @@ function dv_render_embedded_login_form() {
 			<?php if ( $captcha_active && 'recaptcha' === $provider ) : ?>
 				<input type="hidden" name="dv_recaptcha_response" id="recaptcha_response" />
 			<?php elseif ( $captcha_active && 'turnstile' === $provider ) : ?>
-				<div class="cf-turnstile dv-turnstile" data-sitekey="<?php echo esc_attr( $site_key ); ?>" data-action="login"></div>
+				<div class="cf-turnstile dv-turnstile" data-sitekey="<?php echo esc_attr( $site_key ); ?>" data-action="login" data-theme="<?php echo esc_attr( dv_sanitize_turnstile_theme( get_option( 'dv_turnstile_theme', 'auto' ) ) ); ?>"></div>
 			<?php endif; ?>
 
 			<div id="dv-login-message" class="<?php echo $status_message ? 'error' : ''; ?>" <?php echo $status_message ? 'role="alert"' : 'hidden'; ?>><?php echo esc_html( $status_message ); ?>

@@ -3,7 +3,7 @@
  * Plugin Name:       DV Private Documents
  * Plugin URI:        https://github.com/bluantinoo/dv-private-docs
  * Description:       Private document area: administrators assign each document to one user, who downloads it through a protected link and can comment on it. Files never go through the Media Library.
- * Version:           1.3.0
+ * Version:           1.3.1
  * Author:            Diego Vagnoli
  * Author URI:        https://diegovagnoli.it
  * License:           GPL-2.0-or-later
@@ -24,7 +24,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 // Plugin constants
-define( 'DV_PRIVATE_DOCS_VERSION', '1.3.0' );
+define( 'DV_PRIVATE_DOCS_VERSION', '1.3.1' );
 define( 'DV_PRIVATE_DOCS_FILE', __FILE__ );
 define( 'DV_PRIVATE_DOCS_PATH', plugin_dir_path( __FILE__ ) );
 define( 'DV_PRIVATE_DOCS_URL', plugin_dir_url( __FILE__ ) );

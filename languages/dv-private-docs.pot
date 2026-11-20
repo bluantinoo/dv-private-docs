@@ -2,14 +2,14 @@
 # This file is distributed under the GPL-2.0-or-later.
 msgid ""
 msgstr ""
-"Project-Id-Version: DV Private Documents 1.3.0\n"
+"Project-Id-Version: DV Private Documents 1.3.1\n"
 "Report-Msgid-Bugs-To: https://github.com/bluantinoo/dv-private-docs/issues\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-11-20T19:47:02+00:00\n"
+"POT-Creation-Date: 2026-11-20T21:09:29+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: dv-private-docs\n"
@@ -391,8 +391,8 @@ msgid "Your comment is awaiting moderation."
 msgstr ""
 
 #: includes/helpers.php:113
-#: includes/settings.php:604
-#: includes/settings.php:1066
+#: includes/settings.php:622
+#: includes/settings.php:1111
 msgid "Unknown"
 msgstr ""
 
@@ -690,407 +690,418 @@ msgid ""
 "%4$s"
 msgstr ""
 
-#: includes/settings.php:363
+#: includes/settings.php:373
 msgid "General Settings"
 msgstr ""
 
-#: includes/settings.php:371
+#: includes/settings.php:381
 msgid "Documents List Page"
 msgstr ""
 
-#: includes/settings.php:379
+#: includes/settings.php:389
 msgid "Document View Page"
 msgstr ""
 
-#: includes/settings.php:387
+#: includes/settings.php:397
 msgid "User Profile Page"
 msgstr ""
 
-#: includes/settings.php:395
+#: includes/settings.php:405
 msgid "Delete Data on Uninstall"
 msgstr ""
 
-#: includes/settings.php:404
+#: includes/settings.php:414
 msgid "Appearance Settings"
 msgstr ""
 
-#: includes/settings.php:411
+#: includes/settings.php:421
 msgid "Color Scheme"
 msgstr ""
 
-#: includes/settings.php:419
+#: includes/settings.php:429
 msgid "Enable Unstyled Mode"
 msgstr ""
 
-#: includes/settings.php:428
+#: includes/settings.php:438
 msgid "Login Form Settings"
 msgstr ""
 
-#: includes/settings.php:435
+#: includes/settings.php:445
 msgid "Hide Admin Bar for Subscribers"
 msgstr ""
 
-#: includes/settings.php:443
+#: includes/settings.php:453
 msgid "Show Login Message"
 msgstr ""
 
-#: includes/settings.php:451
+#: includes/settings.php:461
 msgid "Enable Embedded Login Form"
 msgstr ""
 
-#: includes/settings.php:459
+#: includes/settings.php:469
 msgid "Anti-bot Protection"
 msgstr ""
 
-#: includes/settings.php:467
+#: includes/settings.php:477
 msgid "reCAPTCHA Site Key"
 msgstr ""
 
-#: includes/settings.php:475
+#: includes/settings.php:485
 msgid "reCAPTCHA Secret Key"
 msgstr ""
 
-#: includes/settings.php:483
+#: includes/settings.php:493
 msgid "Turnstile Site Key"
 msgstr ""
 
-#: includes/settings.php:491
+#: includes/settings.php:501
 msgid "Turnstile Secret Key"
 msgstr ""
 
-#: includes/settings.php:499
+#: includes/settings.php:509
+msgid "Turnstile Theme"
+msgstr ""
+
+#: includes/settings.php:517
 msgid "Content Before Login Form"
 msgstr ""
 
-#: includes/settings.php:507
+#: includes/settings.php:525
 msgid "Content After Login Form"
 msgstr ""
 
-#: includes/settings.php:516
+#: includes/settings.php:534
 msgid "Redirect Settings"
 msgstr ""
 
-#: includes/settings.php:523
+#: includes/settings.php:541
 msgid "Subscriber Redirect Page"
 msgstr ""
 
-#: includes/settings.php:532
+#: includes/settings.php:550
 msgid "User Notification Settings"
 msgstr ""
 
-#: includes/settings.php:539
+#: includes/settings.php:557
 msgid "Notify on Document Assignment"
 msgstr ""
 
-#: includes/settings.php:547
+#: includes/settings.php:565
 msgid "Notify User on Comment Reply"
 msgstr ""
 
-#: includes/settings.php:555
+#: includes/settings.php:573
 msgid "Document Assignment Email Template"
 msgstr ""
 
-#: includes/settings.php:563
+#: includes/settings.php:581
 msgid "Comment Notification Email Template"
 msgstr ""
 
-#: includes/settings.php:572
+#: includes/settings.php:590
 msgid "Admin Notification Settings"
 msgstr ""
 
-#: includes/settings.php:579
+#: includes/settings.php:597
 msgid "Notify Admins on User Comment"
 msgstr ""
 
-#: includes/settings.php:587
+#: includes/settings.php:605
 msgid "Admin Notification Email"
 msgstr ""
 
-#: includes/settings.php:599
+#: includes/settings.php:617
 msgid "Configure the plugin settings below."
 msgstr ""
 
-#: includes/settings.php:606
-#: includes/settings.php:1068
+#: includes/settings.php:624
+#: includes/settings.php:1113
 msgid "WPML Compatibility"
 msgstr ""
 
-#: includes/settings.php:608
-#: includes/settings.php:1070
+#: includes/settings.php:626
+#: includes/settings.php:1115
 msgid "Current language:"
 msgstr ""
 
-#: includes/settings.php:610
+#: includes/settings.php:628
 msgid "Page settings below apply to this language only."
 msgstr ""
 
-#: includes/settings.php:620
+#: includes/settings.php:638
 msgid "Customize the visual appearance of the plugin frontend."
 msgstr ""
 
-#: includes/settings.php:631
+#: includes/settings.php:649
 msgid "Hide the WordPress admin bar for users with the Subscriber role"
 msgstr ""
 
 #. translators: %s: shortcode example
-#: includes/settings.php:638
+#: includes/settings.php:656
 msgid "When enabled, subscribers will not see the admin bar. Combine this with the <code>[dv_user_profile]</code> shortcode to create a page where users can edit their profile (name, email, password, organization) without accessing wp-admin. This creates a complete self-service portal experience for your users."
 msgstr ""
 
-#: includes/settings.php:655
+#: includes/settings.php:673
 msgid "Show login message on [dv_private_docs] shortcode for non-logged-in users"
 msgstr ""
 
-#: includes/settings.php:658
+#: includes/settings.php:676
 msgid "If unchecked, non-logged-in users will see nothing. If checked, they will see a message with a login link."
 msgstr ""
 
-#: includes/settings.php:671
+#: includes/settings.php:689
 msgid "Email address to receive notifications when users comment on documents. Leave empty to use the default admin email."
 msgstr ""
 
-#: includes/settings.php:694
-#: includes/settings.php:731
-#: includes/settings.php:768
+#: includes/settings.php:712
+#: includes/settings.php:749
+#: includes/settings.php:786
 msgid "— Select —"
 msgstr ""
 
 #. translators: %s: shortcode example
-#: includes/settings.php:704
+#: includes/settings.php:722
 msgid "Page containing the <code>[dv_private_docs]</code> shortcode. This displays a list of documents assigned to the current user. Each document links to the view page with a <code>?doc=ID</code> parameter."
 msgstr ""
 
 #. translators: %s: shortcode example
-#: includes/settings.php:741
+#: includes/settings.php:759
 msgid "Page containing the <code>[dv_private_doc_view]</code> shortcode. This displays a single document based on the <code>?doc=ID</code> URL parameter, with download button, comments, and a back link to the documents list page."
 msgstr ""
 
 #. translators: %s: shortcode example
-#: includes/settings.php:778
+#: includes/settings.php:796
 msgid "Page containing the <code>[dv_user_profile]</code> shortcode. This page will be linked in the user menu for logged-in users to view and edit their profile information."
 msgstr ""
 
-#: includes/settings.php:802
+#: includes/settings.php:820
 msgid "Settings saved successfully."
 msgstr ""
 
-#: includes/settings.php:817
+#: includes/settings.php:835
 msgid "Initial Setup Instructions"
 msgstr ""
 
-#: includes/settings.php:820
+#: includes/settings.php:838
 msgid "Follow these steps to configure the plugin:"
 msgstr ""
 
-#: includes/settings.php:824
+#: includes/settings.php:842
 msgid "Create a page for the documents list"
 msgstr ""
 
-#: includes/settings.php:825
-#: includes/settings.php:833
-#: includes/settings.php:841
+#: includes/settings.php:843
+#: includes/settings.php:851
+#: includes/settings.php:859
 msgid "and add the shortcode"
 msgstr ""
 
-#: includes/settings.php:828
+#: includes/settings.php:846
 msgid "This will be a restricted page where logged-in users can see only the documents assigned to them."
 msgstr ""
 
-#: includes/settings.php:832
+#: includes/settings.php:850
 msgid "Create a page for viewing individual documents"
 msgstr ""
 
-#: includes/settings.php:836
+#: includes/settings.php:854
 msgid "This secure page displays the document title, description, protected download button, and comments that admins can reply to."
 msgstr ""
 
-#: includes/settings.php:840
+#: includes/settings.php:858
 msgid "Create a page for the user profile"
 msgstr ""
 
-#: includes/settings.php:844
+#: includes/settings.php:862
 msgid "Use this if you don't want users to access the WordPress dashboard to manage their profile."
 msgstr ""
 
-#: includes/settings.php:848
+#: includes/settings.php:866
 msgid "(Optional) Add the user menu"
 msgstr ""
 
-#: includes/settings.php:849
+#: includes/settings.php:867
 msgid "to any page with the shortcode"
 msgstr ""
 
-#: includes/settings.php:852
+#: includes/settings.php:870
 msgid "The menu displays: link to documents page, link to profile page (if configured), and login/logout link."
 msgstr ""
 
-#: includes/settings.php:856
+#: includes/settings.php:874
 msgid "Configure the settings below"
 msgstr ""
 
-#: includes/settings.php:857
+#: includes/settings.php:875
 msgid "to select the pages you created and customize the plugin behavior."
 msgstr ""
 
-#: includes/settings.php:863
+#: includes/settings.php:881
 msgid "WPML: Configure settings for each language"
 msgstr ""
 
-#: includes/settings.php:866
+#: includes/settings.php:884
 msgid "Settings are language-specific. Use the WPML language switcher at the top of the page to change the current language, then select the appropriate translated pages for that language and save. Repeat this process for all active languages on your site."
 msgstr ""
 
-#: includes/settings.php:877
+#: includes/settings.php:895
 msgid "Save Settings"
 msgstr ""
 
-#: includes/settings.php:888
+#: includes/settings.php:906
 msgid "Configure the embedded login form that appears on document pages."
 msgstr ""
 
-#: includes/settings.php:899
+#: includes/settings.php:917
 msgid "Show login form instead of login link on document pages"
 msgstr ""
 
-#: includes/settings.php:902
+#: includes/settings.php:920
 msgid "When enabled, non-logged-in users will see an inline login form instead of a link to wp-login.php"
 msgstr ""
 
-#: includes/settings.php:924
+#: includes/settings.php:942
 msgid "None"
 msgstr ""
 
-#: includes/settings.php:925
+#: includes/settings.php:943
 msgid "Google reCAPTCHA v3"
 msgstr ""
 
-#: includes/settings.php:926
+#: includes/settings.php:944
 msgid "Cloudflare Turnstile"
 msgstr ""
 
-#: includes/settings.php:929
+#: includes/settings.php:947
 msgid "Protects the embedded login form against automated login attempts. Fill in the keys of the service you choose. The standard login page (wp-login.php) is not covered: protect it with a security plugin."
 msgstr ""
 
-#: includes/settings.php:942
+#: includes/settings.php:960
 msgid "Get your keys from <a href=\"https://www.google.com/recaptcha/admin\" target=\"_blank\">Google reCAPTCHA</a>"
 msgstr ""
 
-#: includes/settings.php:955
-#: includes/settings.php:981
+#: includes/settings.php:973
+#: includes/settings.php:999
 msgid "Keep this key secret. Never share it publicly."
 msgstr ""
 
-#: includes/settings.php:968
+#: includes/settings.php:986
 msgid "Get your keys from <a href=\"https://dash.cloudflare.com/?to=/:account/turnstile\" target=\"_blank\">Cloudflare Turnstile</a>. Add this site's domain to the widget."
 msgstr ""
 
-#: includes/settings.php:1000
+#: includes/settings.php:1021
+#: includes/settings.php:1285
+msgid "Auto (follow system preference)"
+msgstr ""
+
+#: includes/settings.php:1022
+#: includes/settings.php:1289
+msgid "Light mode"
+msgstr ""
+
+#: includes/settings.php:1023
+#: includes/settings.php:1293
+msgid "Dark mode"
+msgstr ""
+
+#: includes/settings.php:1026
+msgid "Colors of the Turnstile widget. Auto follows the light or dark setting of the visitor's device, whatever the colors of the site."
+msgstr ""
+
+#: includes/settings.php:1045
 msgid "HTML or shortcodes to display inside the login wrapper, before the form. Rendered via the dv_after_login_form_wrapper hook."
 msgstr ""
 
-#: includes/settings.php:1019
+#: includes/settings.php:1064
 msgid "HTML or shortcodes to display inside the login wrapper, after the form. Rendered via the dv_after_login_form hook."
 msgstr ""
 
-#: includes/settings.php:1028
+#: includes/settings.php:1073
 msgid "Configure where users are redirected after login."
 msgstr ""
 
-#: includes/settings.php:1047
+#: includes/settings.php:1092
 msgid "— WordPress Default —"
 msgstr ""
 
-#: includes/settings.php:1053
+#: includes/settings.php:1098
 msgid "Redirect subscribers to this page after login. Typically the documents list page. Administrators always go to wp-admin."
 msgstr ""
 
-#: includes/settings.php:1062
+#: includes/settings.php:1107
 msgid "Configure email notifications sent to users when documents are assigned or comments are posted."
 msgstr ""
 
-#: includes/settings.php:1072
+#: includes/settings.php:1117
 msgid "Email templates below apply to this language only."
 msgstr ""
 
-#: includes/settings.php:1082
+#: includes/settings.php:1127
 msgid "Configure email notifications sent to administrators when users comment on documents."
 msgstr ""
 
-#: includes/settings.php:1093
+#: includes/settings.php:1138
 msgid "Send email notification when a document is assigned to a user"
 msgstr ""
 
-#: includes/settings.php:1096
+#: includes/settings.php:1141
 msgid "Users will receive notifications in their preferred language when a document is assigned to them."
 msgstr ""
 
-#: includes/settings.php:1109
+#: includes/settings.php:1154
 msgid "Send notification to users when they receive a comment reply on their document"
 msgstr ""
 
-#: includes/settings.php:1112
+#: includes/settings.php:1157
 msgid "Assigned users will be notified when admins or others comment on their documents."
 msgstr ""
 
-#: includes/settings.php:1125
+#: includes/settings.php:1170
 msgid "Send notification to admins when a user comments on a document"
 msgstr ""
 
-#: includes/settings.php:1128
+#: includes/settings.php:1173
 msgid "Administrators will be notified when assigned users comment on documents."
 msgstr ""
 
-#: includes/settings.php:1148
+#: includes/settings.php:1193
 msgid "Customize the email sent when a document is assigned. Available placeholders:"
 msgstr ""
 
-#: includes/settings.php:1169
+#: includes/settings.php:1214
 msgid "Customize the email sent when users receive comment replies. Available placeholders:"
 msgstr ""
 
-#: includes/settings.php:1183
+#: includes/settings.php:1228
 msgid "Delete all documents, uploaded files and settings when the plugin is deleted"
 msgstr ""
 
-#: includes/settings.php:1186
+#: includes/settings.php:1231
 msgid "Applies only when the plugin is deleted from the Plugins screen, never when it is deactivated. Documents, their comments, the files in the private storage folder, the profile fields added by the plugin and all its settings are removed for good. Leave it off to keep everything for a later reinstall."
 msgstr ""
 
-#: includes/settings.php:1199
+#: includes/settings.php:1244
 msgid "Remove all plugin styling to allow full theme customization"
 msgstr ""
 
-#: includes/settings.php:1202
+#: includes/settings.php:1247
 msgid "When enabled, the plugin will not apply any default styles. Use this if you want to completely customize the appearance through your theme CSS. All semantic CSS classes will still be present for styling."
 msgstr ""
 
-#: includes/settings.php:1208
+#: includes/settings.php:1253
 msgid "Advanced: Template Override System"
 msgstr ""
 
-#: includes/settings.php:1211
+#: includes/settings.php:1256
 msgid "For complete HTML customization, you can override plugin templates by copying them to your theme:"
 msgstr ""
 
 #. translators: %s: path to templates folder
-#: includes/settings.php:1221
+#: includes/settings.php:1266
 msgid "Available templates in: <code>wp-content/plugins/dv-private-docs/templates/</code>"
 msgstr ""
 
-#: includes/settings.php:1240
-msgid "Auto (follow system preference)"
-msgstr ""
-
-#: includes/settings.php:1244
-msgid "Light mode"
-msgstr ""
-
-#: includes/settings.php:1248
-msgid "Dark mode"
-msgstr ""
-
-#: includes/settings.php:1252
+#: includes/settings.php:1297
 msgid "Choose the color scheme for the plugin frontend. Auto follows the user's system preference (light/dark mode setting in their operating system)."
 msgstr ""
 

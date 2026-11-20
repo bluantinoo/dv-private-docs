@@ -4,7 +4,7 @@ Tags: private documents, client portal, protected downloads, file sharing, wpml
 Requires at least: 6.3
 Tested up to: 7.1
 Requires PHP: 8.1
-Stable tag: 1.3.0
+Stable tag: 1.3.1
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -173,6 +173,9 @@ Example: `[dv_user_menu]`
 
 == Changelog ==
 
+= 1.3.1 =
+* New: "Turnstile Theme" setting (Auto, Light, Dark). Until now the widget always followed the visitor's device, so it could be dark on a light site.
+
 = 1.3.0 =
 * First public release.
 * Changed: the embedded login form posts back to its page and signs users in with `wp_signon()` instead of an AJAX endpoint. Two-factor plugins, login limiters and fail2ban loggers now apply to it; with a two-factor plugin active, users who had to give a second factor could not log in from the form. Visitors do not go through `wp-login.php`. Logins are accepted only on the pages set in the settings and only from this site; those pages send `X-Frame-Options: SAMEORIGIN`. A failed login comes back to the same page with a message. The `dv_login` AJAX action is gone.
@@ -215,6 +218,9 @@ Example: `[dv_user_menu]`
 * Initial release
 
 == Upgrade Notice ==
+
+= 1.3.1 =
+Adds a light or dark choice for the Turnstile widget. Nothing changes until you pick one.
 
 = 1.3.0 =
 The embedded login form no longer uses AJAX: it posts back to its page. Purge the page cache after updating, because a cached page still has the old form.
