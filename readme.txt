@@ -4,7 +4,7 @@ Tags: private documents, client portal, protected downloads, file sharing, wpml
 Requires at least: 6.3
 Tested up to: 7.1
 Requires PHP: 8.1
-Stable tag: 1.3.1
+Stable tag: 1.3.2
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -119,7 +119,7 @@ Go to Settings → Login Form Settings and enable "Embedded Login Form". Under "
 
 = Does it work with Complianz (or other cookie consent plugins)? =
 
-Yes, the plugin integrates with Complianz out of the box. When Complianz is active, the anti-bot service is loaded and verified only after the user grants consent for its cookie category: `marketing` for Google reCAPTCHA (filter `dv_recaptcha_consent_category`), `functional` for Cloudflare Turnstile (filter `dv_turnstile_consent_category`; Complianz always grants that category).
+Yes, the plugin integrates with Complianz out of the box. When Complianz is active, the anti-bot service is loaded and verified only after the user grants consent for its cookie category: `marketing` for Google reCAPTCHA (filter `dv_recaptcha_consent_category`), `functional` for Cloudflare Turnstile (filter `dv_turnstile_consent_category`), which means no consent is asked: the login works on a first visit, before the banner is used.
 
 If the user has not given (or has denied) consent:
 
@@ -173,6 +173,9 @@ Example: `[dv_user_menu]`
 
 == Changelog ==
 
+= 1.3.2 =
+* Fix: with Complianz and opt-in consent, Turnstile asked for cookie consent on a first visit, because Complianz reports even the `functional` category as not granted until the banner is used. The `functional` category no longer asks for consent.
+
 = 1.3.1 =
 * New: "Turnstile Theme" setting (Auto, Light, Dark). Until now the widget always followed the visitor's device, so it could be dark on a light site.
 
@@ -218,6 +221,9 @@ Example: `[dv_user_menu]`
 * Initial release
 
 == Upgrade Notice ==
+
+= 1.3.2 =
+Turnstile no longer asks for cookie consent when Complianz is active.
 
 = 1.3.1 =
 Adds a light or dark choice for the Turnstile widget. Nothing changes until you pick one.

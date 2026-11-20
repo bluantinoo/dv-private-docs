@@ -62,7 +62,7 @@ A token is accepted only if the service confirms it, it was issued for the `logi
 |---|---|---|
 | `dv_recaptcha_min_score` | `0.5` | Minimum reCAPTCHA v3 score |
 | `dv_recaptcha_consent_category` | `marketing` | Complianz category reCAPTCHA needs |
-| `dv_turnstile_consent_category` | `functional` | Complianz category Turnstile needs (Complianz always grants it) |
+| `dv_turnstile_consent_category` | `functional` | Complianz category Turnstile needs; `functional` means no consent is asked |
 
 If you use a page cache, exclude the page with the login form: the consent notice is decided on the server.
 

@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: DV Private Documents 1.3.1\n"
+"Project-Id-Version: DV Private Documents 1.3.2\n"
 "Report-Msgid-Bugs-To: https://github.com/bluantinoo/dv-private-docs/issues\n"
 "Last-Translator: \n"
 "Language-Team: Italiano\n"

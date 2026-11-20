@@ -146,7 +146,7 @@ The dark mode implementation uses CSS variables that intelligently adapt colors 
 - None, Google reCAPTCHA v3 or Cloudflare Turnstile, on the embedded form only
 - `wp-login.php` itself is not covered: protect it with a security plugin
 - A token is accepted only if the service confirms it, it was issued for the `login` action and for this site's host; reCAPTCHA also needs a score of at least 0.5 (filter `dv_recaptcha_min_score`)
-- With Complianz, the service loads only after consent: category `marketing` for reCAPTCHA (filter `dv_recaptcha_consent_category`), `functional` for Turnstile (filter `dv_turnstile_consent_category`). Without consent the login is refused, not let through without the check
+- With Complianz, the service loads only after consent: category `marketing` for reCAPTCHA (filter `dv_recaptcha_consent_category`), `functional` for Turnstile (filter `dv_turnstile_consent_category`), which asks no consent. Without consent the login is refused, not let through without the check
 
 #### reCAPTCHA Site Key
 - Your Google reCAPTCHA v3 site key

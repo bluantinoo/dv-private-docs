@@ -64,8 +64,10 @@ function dv_login_captcha_secret_key() {
  * Whether the visitor has given the consent the chosen service needs.
  *
  * Only checked when Complianz is installed. reCAPTCHA defaults to the
- * `marketing` category, Turnstile to `functional` (no tracking cookies, and
- * Complianz always grants that category). Both are filterable.
+ * `marketing` category, Turnstile to `functional`; both are filterable.
+ * `functional` means "no consent needed" and is not asked to Complianz: with
+ * opt-in consent, cmplz_has_consent( 'functional' ) is false until the visitor
+ * has used the banner, which would block the login on a first visit.
  *
  * @return bool True when no consent is needed or it has been given.
  */
@@ -78,6 +80,10 @@ function dv_login_captcha_has_consent() {
 		$category = apply_filters( 'dv_turnstile_consent_category', 'functional' );
 	} else {
 		$category = apply_filters( 'dv_recaptcha_consent_category', 'marketing' );
+	}
+
+	if ( 'functional' === $category ) {
+		return true;
 	}
 
 	return (bool) cmplz_has_consent( $category );
